@@ -1,8 +1,6 @@
 # people in space
 
 <p align="center">
-  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/actions">
-    <img alt="Build" src="https://github.com/fork-my-spoons/people-in-space.spoon/workflows/build/badge.svg"/></a>
   <a href="https://github.com/fork-my-spoons/people-in-space.spoon/issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/people-in-space.spoon"/></a>
   <a href="https://github.com/fork-my-spoons/people-in-space.spoon/releases">
