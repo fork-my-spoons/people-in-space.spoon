@@ -1,5 +1,14 @@
 # people in space
 
+<p align="center">
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/actions">
+    <img alt="Build" src="https://github.com/fork-my-spoons/people-in-space.spoon/workflows/build/badge.svg"/></a>
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/people-in-space.spoon"/></a>
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/people-in-space.spoon/total"/></a>
+</p>
+
 Shows number of people currently in space:
 
 ![screenshot](./screenshots/screenshot.png)
