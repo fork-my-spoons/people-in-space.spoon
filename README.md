@@ -14,7 +14,7 @@ Shows number of people currently in space:
 
       ```brew install hammerspoon --cask```
 
- - download [people-in-space.spoon](https://github.com/fork-my-spoons/people-in-space.spoon/raw/master/people-in-space.spoon.zip), unzip and double click on a .spoon file. It will be installed under `~/.hammerspoon/Spoons` folder.
+ - download [people-in-space.spoon](https://github.com/fork-my-spoons/people-in-space.spoon/releases/download/v1.0/people-in-space.spoon.zip), unzip and double click on a .spoon file. It will be installed under `~/.hammerspoon/Spoons` folder.
  
  - open ~/.hammerspoon/init.lua and add the following snippet, adding your parameters:
 
