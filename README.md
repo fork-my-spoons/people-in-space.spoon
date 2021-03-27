@@ -9,7 +9,9 @@
 
 Shows number of people currently in space:
 
-![screenshot](./screenshots/screenshot.png)
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/people-in-space.spoon/raw/master/screenshots/screenshot.png"/>
+</p>
 
 # Installation
 
