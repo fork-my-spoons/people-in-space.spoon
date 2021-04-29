@@ -66,10 +66,23 @@ local function updateMenu()
                 cur_status = person.country
             end
             
-            print()
+            -- local avatar = hs.image.imageFromPath('/Users/pmakhov/Pictures/don.png')
+            -- hs.http.asyncGet(person.biophoto, {},  function(status)
+            --     print(status)
+            --     if status == 200 then 
+            --         avatar = hs.image.imageFromURL(person.biophoto, function()end):setSize({w=64,h=64})
+            --     end
+            -- end)
+
+            local avatar = hs.image.imageFromURL(person.biophoto)
+            if avatar == nil then
+                avatar = hs.image.imageFromPath(obj.iconPath .. '/astronaut.png'):setSize({w=51,h=51}):template(true)
+            else
+                avatar = avatar:setSize({w=64,h=64})
+            end
 
             local menu = { 
-                image = hs.image.imageFromURL(person.biophoto):setSize({w=64,h=64}),
+                image = avatar,
                 title = hs.styledtext.new(person.name .. '\n') 
                 .. user_icon .. styledText(person.title .. '\n') 
                 .. calendar_icon .. styledText(math.floor(os.difftime(current_time, parse_date(person.launchdate)) / 86400) .. ' days in space')
