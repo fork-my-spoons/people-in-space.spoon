@@ -1,8 +1,17 @@
 # people in space
 
+<p align="center">
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/people-in-space.spoon"/></a>
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/people-in-space.spoon/total"/></a>
+</p>
+
 Shows number of people currently in space:
 
-![screenshot](./screenshots/screenshot.png)
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/people-in-space.spoon/raw/master/screenshots/screenshot.png"/>
+</p>
 
 # Installation
 
@@ -14,7 +23,7 @@ Shows number of people currently in space:
 
       ```brew install hammerspoon --cask```
 
- - download [gitlab-merge-requests.spoon](https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/raw/master/gitlab-merge-requests.spoon.zip), unzip and double click on a .spoon file. It will be installed under `~/.hammerspoon/Spoons` folder.
+ - download [people-in-space.spoon](https://github.com/fork-my-spoons/people-in-space.spoon/releases/download/v1.0/people-in-space.spoon.zip), unzip and double click on a .spoon file. It will be installed under `~/.hammerspoon/Spoons` folder.
  
  - open ~/.hammerspoon/init.lua and add the following snippet, adding your parameters:
 
